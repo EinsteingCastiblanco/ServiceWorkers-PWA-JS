@@ -1,0 +1,26 @@
+PWA (Progressive web apps) aplicacion web progresiva
+
+¿Que es?
+- Son rapidas 
+- Es instalable
+- Tienen soporte offline, sin conexion a internet
+
+¿Que es service worker?
+- Son script que escuchan cada evento
+- Funcionan offline
+- No funcionan con el DOM
+- Pueden ir sincronizando datos mientras se navega ( cargando los datos del cache )
+
+Caracteristica
+- No utiliza window solo self
+- Utiliza el cache
+- Utiliza fecth en vez del local storage
+
+------------------------------------------------------------------------------
+Pasos para crear la PWA
+
+- Debe estar en un servidor https o un servidor local
+- Debe tener un archivo con el nombre de manifest.json que contenga la informacion de la PWA, se tiene que linkear en el archivo principal
+- Debe poderse instalar
+
+Nota: los iconos que se necesitan se generan con una pagina web
